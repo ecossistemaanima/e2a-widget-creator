@@ -1,0 +1,12 @@
+{
+    "user_dev": {
+        "id": "18374109840",
+        "name": "Marcelo"
+    },
+    "auth": {
+        "token": "xxxx"
+    },
+    "widgets": {
+        "folder": "widgets"
+    }
+}
