@@ -4,7 +4,7 @@ import chalk from 'chalk'
 
 export default function() {
     let path = appRoot.path + "/creator.config.json"
-    //console.log('path',path);
+    console.log('path',path);
 
     try {
         let data = readFileSync(path, { encoding: 'utf8' })

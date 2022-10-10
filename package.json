@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node ./src/main.js",
-    "devwatch": "nodemon ./src/main.js"
+    "creator": "node ./src/main.js",
+    "clone": "node ./src/clone.js"
   },
   "repository": {
     "type": "git",
