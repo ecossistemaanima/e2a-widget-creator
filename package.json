@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node ./src/main.js"
+    "dev": "node ./src/main.js",
+    "devwatch": "nodemon ./src/main.js"
   },
   "repository": {
     "type": "git",
@@ -20,13 +21,7 @@
   "homepage": "https://github.com/ecossistemaanima/e2a-widget-creator#readme",
   "dependencies": {
     "app-root-path": "^3.1.0",
-    "chalk": "^5.0.1",
-    "chokidar": "^3.5.3",
-    "config": "^3.3.8",
-    "crypto-js": "^4.1.1",
-    "firebase": "^9.9.2",
-    "lodash": "^4.17.21",
-    "moment": "^2.29.4",
-    "vue-sfc-parser": "^0.1.2"
+    "chalk": "^5.1.0",
+    "widget-creator": "github:mmamorim/widget-creator"
   }
 }

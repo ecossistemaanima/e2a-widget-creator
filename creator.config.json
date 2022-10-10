@@ -6,7 +6,6 @@
     "auth": {
         "token": "xxxx"
     },
-    "widgets": {
-        "folder": "widgets"
-    }
+    "widgets_folder": "widgets",
+    "gadgets_folder": "gadgets"
 }

@@ -1,15 +1,13 @@
-import loaders from "./loaders/loaders.js"
-import config from 'config'
-import chalk from 'chalk'
-import listener from "./listener/listener.js"
+import getConfig from './get-config.js'
+import { creator } from 'widget-creator'
 
-const user_dev = config.get('user_dev') 
 
-console.log("🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱");
-console.log("  🟥🔷 E2A widget");
-console.log("  {}🟪 CREATOR (v 1.0)");
-console.log("🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱🧱");
+let config = getConfig()
+if (config == null) {
+    console.log('sorry');
+} else {
+    creator.setPrefix('E2A')
+    creator.setConfig(config)
+    creator.init()
+}
 
-console.log(chalk.yellow.bold(`👨‍💻 Olá ${user_dev.name}!`));
-
-listener.init()
