@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "creator": "node ./src/main.js",
-    "clone": "node ./src/clone.js"
+    "creator": "node ./creator/main.js",
+    "clone": "node ./creator/clone.js"
   },
   "repository": {
     "type": "git",

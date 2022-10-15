@@ -1,0 +1,12 @@
+{
+    "id": "teste01",
+    "category": "testes",
+    "name": "Um gadget teste",
+    "author": "",
+    "description": "",
+    "homepage": "",
+    "commit": "versão 4",
+    "icon": "@icone.png", 
+    "main_widget": "WG-TESTE",
+    "main_widget_namespace": "testes"
+}
